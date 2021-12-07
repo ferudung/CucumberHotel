@@ -1,0 +1,77 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-01T18:02:47.097Z",
+        "line": 5,
+        "name": "TC001 Anasayfadan login sayfasina gecip login olduktan sonra otelleri listeleyip addHotel linkine tıklanmas",
+        "description": "",
+        "id": "us004-register-sayfasi-kayit-olusturma;tc001-anasayfadan-login-sayfasina-gecip-login-olduktan-sonra-otelleri-listeleyip-addhotel-linkine-tıklanmas",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "anasayfadan login yapılarak istenen sayfaya gidildi",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "hotel management linkine tıklandı",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "hotel list linkine tıklandı",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "addHotel  linkine tıklandı",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US004"
+          },
+          {
+            "name": "@TC001"
+          }
+        ]
+      }
+    ],
+    "name": "US004 register sayfasi kayit olusturma",
+    "description": "",
+    "id": "us004-register-sayfasi-kayit-olusturma",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US004.feature",
+    "tags": [
+      {
+        "name": "@US004",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.179">
+    <testcase classname="US004 register sayfasi kayit olusturma" name="TC001 Anasayfadan login sayfasina gecip login olduktan sonra otelleri listeleyip addHotel linkine tıklanmas" time="0.036">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When anasayfadan login yapılarak istenen sayfaya gidildi....................undefined
+And hotel management linkine tıklandı.......................................skipped
+And hotel list linkine tıklandı.............................................skipped
+And addHotel  linkine tıklandı..............................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
